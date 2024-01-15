@@ -1,0 +1,27 @@
+[blurry]
+domain = "oliverkandler.github.io"
+maximum_image_width = 360
+thumbnail_width = 285
+
+[blurry.template_schema_types]
+DocPage = "Article"
+
+[blurry.schema_data.author]
+"@type" = "Person"
+"@id" = "https://oliverkandler.github.io/"
+name = "Oliver Kandler"
+givenName = "Oliver"
+familyName = "Kandler"
+url = "https://oliverkandler.github.io/"
+sameAs = [
+    "https://smartpersonalfinance.info/author/oliverkandler/"
+]
+
+[blurry.schema_data.sourceOrganization]
+"@type" = "Organization"
+"@id" = "https://smartpersonalfinance.info/"
+name = "Smart Personal Finance"
+alternateName = [
+    "Smart Personal Finance Info",
+    "SmartPersonalFinance.info"
+]

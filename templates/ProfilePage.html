@@ -1,0 +1,12 @@
+{% extends "base.html" %}
+
+{% block title %}{{ name }}{% endblock %}
+{% block description %}{{ abstract }}{% endblock %}
+
+{% block local_styles %}{% endblock %}
+
+{% block body %}
+
+  {{ body|safe }}
+
+{% endblock %}

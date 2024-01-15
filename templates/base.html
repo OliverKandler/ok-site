@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="description" content="{{ abstract }}">
+    <link rel="icon" type="image/x-icon" href="./images/Kaj64x64.ico">
+    <title>{% block title %}{% endblock %}</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta content="text/html; charset=UTF-8" http-equiv="Content-Type" />
+    <meta content="Links to my various profiles online" name="description" />
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="/styles/layout.css">
+
+    <meta name="description" content="{% block description %}{% endblock %}">
+    <link rel="canonical" href="{{ url }}">
+    {% block local_styles %}{% endblock %}
+
+    {{ schema_type_tag|safe }}
+    {{ open_graph_tags|safe }}
+  </head>
+
+<body>
+  <main>{% block body %}{% endblock %}</main>
+
+  <footer>
+    <p>Published by: {{ sourceOrganization.name }}. Copyright 2024&copy; All rights reserved</p>
+  </footer>
+</body>
+</html>
