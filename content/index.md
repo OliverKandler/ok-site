@@ -16,6 +16,8 @@ dateModified = "2024-01-15T15:52:13+02:00"
 "@id" = "https://oliverkandler.github.io/"
 name = "Oliver Kandler"
 sameAs = [
+    "https://www.google.com/search?kgmid=/g/11kbdg_htj",
+    "https://www.google.com/search?kgmid=/g/11pztf0qzl",
     "https://smartpersonalfinance.info/author/oliverkandler/",
     "https://twitter.com/SmartPerFinance",
     "https://www.facebook.com/oliver.kandler.spf",
