@@ -7,12 +7,12 @@
 @media screen and (min-width: 48rem) {
     html {
         font-size: 16px;
+        max-width: 360px;
     }
 }
 
 html {
     margin: 0 auto;
-    max-width: 360px;
 }
 
 body {
@@ -21,6 +21,11 @@ body {
     margin-bottom: 24px;
     font-family: "Josefin Sans", "Arial", sans-serif;
     background: white;
+}
+
+h1, h2, h3, h4, h5 {
+    margin-top: 12px;
+    margin-bottom: 6px;
 }
 
 h1,
