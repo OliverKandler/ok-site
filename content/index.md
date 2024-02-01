@@ -24,9 +24,7 @@ sameAs = [
     "https://medium.com/@oliverkandler",
     "https://about.me/oliver.kandler",
     "https://gravatar.com/oliverkandler",
-    "https://www.reddit.com/user/SmartPerFinance",
-    "https://www.facebook.com/oliver.kandler.spf",
-    "https://twitter.com/SmartPerFinance"
+    "https://www.reddit.com/user/SmartPerFinance"
 ]
 
 [author]
