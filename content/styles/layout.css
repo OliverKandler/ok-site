@@ -1,3 +1,15 @@
+@media screen and (min-width: 32rem) and (max-width: 48rem) {
+    html {
+        font-size: 15px;
+    }
+}
+
+@media screen and (min-width: 48rem) {
+    html {
+        font-size: 16px;
+    }
+}
+
 html {
     margin: 0 auto;
     max-width: 360px;
@@ -70,18 +82,26 @@ li a:focus {
 }
 
 /* color gradient */
-li:nth-child(1),li:nth-child(5),li:nth-child(9) {
+li:nth-child(1),
+li:nth-child(5),
+li:nth-child(9) {
     background: #B9D2DF;
 }
 
-li:nth-child(2),li:nth-child(6),li:nth-child(10) {
+li:nth-child(2),
+li:nth-child(6),
+li:nth-child(10) {
     background: #9CC0D3;
 }
 
-li:nth-child(3),li:nth-child(7),li:nth-child(11) {
+li:nth-child(3),
+li:nth-child(7),
+li:nth-child(11) {
     background: #659BB8;
 }
 
-li:nth-child(4),li:nth-child(8),li:nth-child(12) {
+li:nth-child(4),
+li:nth-child(8),
+li:nth-child(12) {
     background: #4D88A8;
 }

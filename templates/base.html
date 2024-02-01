@@ -1,33 +1,67 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="utf-8">
-    <meta name="description" content="{{ abstract }}">
-    <link rel="icon" type="image/x-icon" href="./images/Kaj64x64.ico">
-    <title>{% block title %}{% endblock %}</title>
+  <!-- basic -->
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- mobile metas -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="viewport" content="initial-scale=1, maximum-scale=1">
+  <!-- <link rel="icon" type="image/x-icon" href="./images/Kaj64x64.ico"> -->
 
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta content="text/html; charset=UTF-8" http-equiv="Content-Type" />
-    <meta content="Links to my various profiles online" name="description" />
+  <meta name="description" content="{{ abstract }}">
+  <title>{% block title %}{% endblock %}</title>
 
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap" rel="stylesheet">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta content="text/html; charset=UTF-8" http-equiv="Content-Type" />
+  <meta content="Links to my various profiles online" name="description" />
 
-    <link rel="stylesheet" href="/styles/layout.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap" rel="stylesheet">
 
-    <meta name="description" content="{% block description %}{% endblock %}">
-    <link rel="canonical" href="{{ url }}">
-    {% block local_styles %}{% endblock %}
+  <link rel="stylesheet" href="/styles/layout.css">
+  <link rel="stylesheet" type="text/css" href="/styles/header.css">
 
-    {{ schema_type_tag|safe }}
-    {{ open_graph_tags|safe }}
-  </head>
+  <meta name="description" content="{% block description %}{% endblock %}">
+  <link rel="canonical" href="{{ url }}">
+  {% block local_styles %}{% endblock %}
+
+  {{ schema_type_tag|safe }}
+  {{ open_graph_tags|safe }}
+</head>
 
 <body>
-  <main>{% block body %}{% endblock %}</main>
+  <header>
+    <div class="header">
+      <a href="/">
+        <img src="/images/home-icon.png"
+          style="width: 1.5em; height: auto; margin: 20px 15px 15px 15px; float: left">
+      </a>
+      <!-- Hamburger icon -->
+      <input class="side-menu" type="checkbox" id="side-menu" />
+      <label class="hamb" for="side-menu"><span class="hamb-line"></span></label>
+      <!-- Menu -->
+      <nav class="nav">
+        <ul class="menu">
+          <li><a href="/">Home</a></li>
+          <li><a href="/writing/">Writing</a> </li>
+          <!-- <li><a href="/professional/">Professional</a> </li>
+          <li><a href="/social/">Social</a> </li>
+          <li><a href="/visual/">Visual</a> </li> -->
+        </ul>
+      </nav>
+      <br style="clear:both" />
+    </div>
+    <!-- TODO: add favicon.ico -->
+  </header>
+
+  <main><div>{% block body %}{% endblock %}</div></main>
 
   <footer>
     <p>Published by: {{ sourceOrganization.name }}. Copyright 2024&copy; All rights reserved</p>
   </footer>
 </body>
+
 </html>
