@@ -148,11 +148,13 @@ name = "List of Oliver Kandler's Social Media Profiles"
 
 # Oliver Kandler's Social Media Profiles
 
+![Oliver Kandler](./images/OliverKandler_travel_1200x1800.jpeg)
+
 ## Oliver Kandler @ X (formerly Twitter)
 
 Oliver Kandler tweets on Twitter (now X). He uses the handle [@SmartPerFinance](https://twitter.com/SmartPerFinance) He publishes short messages to engage with his audience or promotes his latest articles.
 
 
-## Oliver Kandler on Facewbook
+## Oliver Kandler on Facebook
 
 [Oliver Kandler]("https://www.facebook.com/oliver.kandler.spf") participates in various Facebook groups. In the groups he gathers ideas for articles and answers questions about personal finance. He promotes his latest articles on Facebook.

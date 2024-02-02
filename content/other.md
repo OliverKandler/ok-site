@@ -151,6 +151,8 @@ alternateName = [
 
 # Oliver Kandler's other Profile Pages
 
+![Oliver Kandler](./images/OliverKandler_travel_1200x1800.jpeg)
+
 ## About.me
 
 Oliver Kandler utilizes the [About.me page](https://about.me/oliver.kandler) as a Link-in-Bio page for places where only one link is allowed.

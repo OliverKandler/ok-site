@@ -5,7 +5,7 @@ url = "https://oliverkandler.github.com/writing/"
 name = "Oliver Kandler's Author Pages"
 headline = "Oliver Kandler's Writing"
 datePublished = "2024-02-01T07:52:13+02:00"
-dateModified = "2024-02-01T15:52:13+02:00"
+dateModified = "2024-02-01T19:52:13+02:00"
 # image = "./assets/images/Kaj-Kandler-Profile-Pages.png"
 # [image]
 # "@type" = "ImageObject"
@@ -86,6 +86,14 @@ name = "List of Oliver Kandler's author Pages"
 "@type" = "ProfilePage"
 "@id" = "https://oliverkandler.github.com/writing/#medium"
 
+[[about]]
+"@type" = "ProfilePage"
+"@id" = "https://oliverkandler.github.com/writing/#spf"
+
+[[about]]
+"@type" = "ProfilePage"
+"@id" = "https://oliverkandler.github.com/writing/#medium"
+
 [["@graph"]]
 "@type" = "ProfilePage"
 "@id" = "https://oliverkandler.github.com/writing/#spf"
@@ -102,6 +110,10 @@ name = "List of Oliver Kandler's author Pages"
     "https://www.linkedin.com/in/oliver-kandler-spf/",
     "https://smartpersonalfinance.info/author/oliverkandler/"
 ]
+[["@graph".about]]
+"@type" = "Person"
+"@id" = "https://oliverkandler.github.io/"
+"name" = "Oliver Kandler"
 [["@graph".partOf]]
 "@type" = "Website"
 "@id" = "https://smartpersonalfinance.info/#website"
@@ -145,6 +157,8 @@ alternateName = [
 +++
 
 # Oliver Kandler's Writing
+
+![Oliver Kandler](./images/OliverKandler_tree_1200x1800.jpeg)
 
 ## Smart Personal Finance Info
 

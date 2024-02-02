@@ -114,6 +114,8 @@ name = "List of Oliver Kandler's author Pages"
 
 # Oliver Kandler's Professional Life
 
+![Oliver Kandler](./images/OliverKandler_tree_1200x1800.jpeg)
+
 ## Oliver Kandler @ LinkedIn
 
 On Linkedin you find [Oliver Kandler's resume](https://www.linkedin.com/in/oliver-kandler-spf/) as well as his experiences and connections. Sometimes he promotes his articles to his LinkedIn profile.
