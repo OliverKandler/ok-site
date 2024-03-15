@@ -5,7 +5,7 @@ url = "https://oliverkandler.github.com/writing/"
 name = "Oliver Kandler's Author Pages"
 headline = "Oliver Kandler's Writing"
 datePublished = "2024-02-01T07:52:13+02:00"
-dateModified = "2024-02-02T19:52:13+02:00"
+dateModified = "2024-02-05T15:52:13+02:00"
 image = "./images/OliverKandler_tree_1200x1800.jpeg"
 # [image]
 # "@type" = "ImageObject"
@@ -78,25 +78,17 @@ name = "List of Oliver Kandler's author Pages"
 "position" = 1
 [about.itemListElement.item]
 "@type" = "ProfilePage"
-"@id" = "https://oliverkandler.github.com/writing/#spf"
+"@id" = "https://oliverkandler.github.com/#spf"
 [[about.itemListElement]]
 "@type" = "ListItem"
 "position" = 2
 [about.itemListElement.item]
 "@type" = "ProfilePage"
-"@id" = "https://oliverkandler.github.com/writing/#medium"
-
-[[about]]
-"@type" = "ProfilePage"
-"@id" = "https://oliverkandler.github.com/writing/#spf"
-
-[[about]]
-"@type" = "ProfilePage"
-"@id" = "https://oliverkandler.github.com/writing/#medium"
+"@id" = "https://oliverkandler.github.com/#medium"
 
 [["@graph"]]
 "@type" = "ProfilePage"
-"@id" = "https://oliverkandler.github.com/writing/#spf"
+"@id" = "https://oliverkandler.github.com/#spf"
 "name" = "Oliver Kandler @ Smart Personal Finance"
 "url" = "https://smartpersonalfinance.info/author/oliverkandler/"
 "description" = "Oliver Kandler is an author at Smart Personal Finance. He contributes articles about personal finance, saving, investing, financial independence and early retirement. He further contributes to calculators such as wage to salary calculator."
@@ -129,7 +121,7 @@ alternateName = [
 
 [["@graph"]]
 "@type" = "ProfilePage"
-"@id" = "https://oliverkandler.github.com/writing/#medium"
+"@id" = "https://oliverkandler.github.com/#medium"
 "name" = "Oliver Kandler @ Medium"
 "url" = "https://medium.com/@oliverkandler"
 "description" = "Oliver Kandler contributes articles to Medium. His topics are personal finance, saving, investing, financial independence and early retirement."

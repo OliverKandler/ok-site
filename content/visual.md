@@ -1,11 +1,11 @@
 +++
 "@type" = "Article"
-"@id" = "https://oliverkandler.github.com/social/"
-url = "https://oliverkandler.github.com/social/"
+"@id" = "https://oliverkandler.github.com/visual/"
+url = "https://oliverkandler.github.com/visual/"
 name = "Oliver Kandler's Author Pages"
 headline = "Oliver Kandler's Writing"
-datePublished = "2024-02-01T07:52:13+02:00"
-dateModified = "2024-02-06T15:52:13+02:00"
+datePublished = "2024-02-05T15:52:13+02:00"
+dateModified = "2024-02-05T15:52:13+02:00"
 image = "./images/OliverKandler_travel_1200x1800.jpeg"
 # [image]
 # "@type" = "ImageObject"
@@ -22,16 +22,16 @@ url = "https://oliverkandler.github.com/"
 
 [mainEntityOfPage]
 "@type" = "WebPage"
-"@id" = "https://oliverkandler.github.com/social/#webpage"
+"@id" = "https://oliverkandler.github.com/visual/#webpage"
 name = "Author Pages for Oliver Kandler"
-url = "https://oliverkandler.github.com/social/"
+url = "https://oliverkandler.github.com/visual/"
 [[mainEntityOfPage.isPartOf]]
 "@type" = "WebSite"
 "@id" = "https://oliverkandler.github.com/#website"
 
 [[isPartOf]]
 "@type" = "WebPage"
-"@id" = "https://oliverkandler.github.com/social/#webpage"
+"@id" = "https://oliverkandler.github.com/visual/#webpage"
 
 [["@graph"]]
 "@type" = "Person"
@@ -70,34 +70,38 @@ url = "https://oliverkandler.github.com/"
 
 [[about]]
 "@type" = "ItemList"
-"@id" = "https://oliverkandler.github.com/social/#itemlist"
-name = "List of Oliver Kandler's Social Media Profiles"
+"@id" = "https://oliverkandler.github.com/visual/#itemlist"
+name = "List of Oliver Kandler's author Pages"
 "numberOfItems" = 3
 [[about.itemListElement]]
 "@type" = "ListItem"
 "position" = 1
 [about.itemListElement.item]
 "@type" = "ProfilePage"
-"@id" = "https://oliverkandler.github.com/#twitter"
+"@id" = "https://oliverkandler.github.com/#youtube"
 [[about.itemListElement]]
 "@type" = "ListItem"
 "position" = 2
 [about.itemListElement.item]
 "@type" = "ProfilePage"
-"@id" = "https://oliverkandler.github.com/#facebook"
+"@id" = "https://oliverkandler.github.com/#flickr"
 [[about.itemListElement]]
 "@type" = "ListItem"
 "position" = 3
 [about.itemListElement.item]
 "@type" = "ProfilePage"
-"@id" = "https://oliverkandler.github.com/#quora"
+"@id" = "https://oliverkandler.github.com/#pixabay"
 
 [["@graph"]]
 "@type" = "ProfilePage"
-"@id" = "https://oliverkandler.github.com/#twitter"
-"name" = "Oliver Kandler @ Twitter"
-"url" = "https://twitter.com/SmartPerFinance"
-"description" = "Oliver Kandler tweets on Twitter (now X). He publishes short messages to engage with his audience or promotes his latest articles."
+"@id" = "https://oliverkandler.github.com/#youtube"
+"name" = "Oliver Kandler @ YouTube"
+alternateName = [
+    "@smartpersonalfinance366",
+    "Smart Personal Finance Info @ YouTube"
+]
+"url" = "https://www.youtube.com/channel/UCohYBiI9kdmrIMskMlGrixA"
+"description" = "Oliver Kandler publishes videos at YouTube and curates some play lists on his channel."
 [["@graph".mainEntity]]
 "@type" = "Person"
 "@id" = "https://oliverkandler.github.io/"
@@ -107,25 +111,28 @@ name = "List of Oliver Kandler's Social Media Profiles"
     "https://oliverkandler.github.io/",
     "https://www.linkedin.com/in/oliver-kandler-spf/",
     "https://smartpersonalfinance.info/author/oliverkandler/",
-    "https://twitter.com/SmartPerFinance"
+    "https://www.youtube.com/channel/UCohYBiI9kdmrIMskMlGrixA"
 ]
 [["@graph".partOf]]
 "@type" = "Website"
-"@id" = "https://twitter.com/"
-"url" = "https://twitter.com/"
-"name" = "X (formerly Twitter)"
+"@id" = "https://www.youtube.com/#website"
+"url" = "https://www.youtube.com/"
+"name" = "YouTube"
+alternateName = [
+    "youtube.com"
+]
 "sameAs" = [
-    "https://www.google.com/search?kgmid=/m/0hn1vcg",
-    "https://twitter.com/",
-    "https://en.wikipedia.org/wiki/Twitter,_Inc."
+    "https://www.google.com/search?kgmid=/m/09jcvs",
+    "https://www.youtube.com/",
+    "https://en.wikipedia.org/wiki/YouTube"
 ] 
 
 [["@graph"]]
 "@type" = "ProfilePage"
-"@id" = "https://oliverkandler.github.com/#facebook"
-"name" = "Oliver Kandler @ Facebook"
-"url" = "https://www.facebook.com/oliver.kandler.spf"
-"description" = "Oliver Kandler participates in various Facebook groups. He promotes his latest articles."
+"@id" = "https://oliverkandler.github.com/#flickr"
+"name" = "Oliver Kandler @ Flickr"
+"url" = "https://www.flickr.com/people/oliverkandler/"
+"description" = "Oliver Kandler publishes some random photography to Flickr. His preferred subject is plants and landscapes throughout the seasons."
 [["@graph".mainEntity]]
 "@type" = "Person"
 "@id" = "https://oliverkandler.github.io/"
@@ -134,25 +141,26 @@ name = "List of Oliver Kandler's Social Media Profiles"
     "https://www.google.com/search?kgmid=/g/11kbdg_htj",
     "https://oliverkandler.github.io/",
     "https://www.linkedin.com/in/oliver-kandler-spf/",
-    "https://www.facebook.com/oliver.kandler.spf"
+    "https://www.flickr.com/people/oliverkandler/", 
+    "https://www.flickr.com/people/196447828@N02/"
 ]
 [["@graph".partOf]]
 "@type" = "Website"
-"@id" = "https://www.facebook.com/"
-"url" = "https://www.facebook.com/"
-"name" = "Facebook"
+"@id" = "https://www.flickr.com/#website"
+"url" = "https://www.flickr.com/"
+"name" = "Flickr"
 "sameAs" = [
-    "https://www.google.com/search?kgmid=/m/0hmyfsv",
-    "https://www.facebook.com/",
-    "https://en.wikipedia.org/wiki/Meta_Platforms"
+    "https://www.google.com/search?kgmid=/m/04dtx9",
+    "https://www.flickr.com/",
+    "https://en.wikipedia.org/wiki/Flickr"
 ] 
 
 [["@graph"]]
 "@type" = "ProfilePage"
-"@id" = "https://oliverkandler.github.com/#quora"
-"name" = "Oliver Kandler @ Quora"
-"url" = "https://www.quora.com/profile/Oliver-Kandler"
-"description" = "Oliver Kandler shares his experience and expertise in personal finance on Quora. He asks and answers questions in the community."
+"@id" = "https://oliverkandler.github.com/#pixabay"
+"name" = "Oliver Kandler @ Pixabay"
+"url" = "https://pixabay.com/users/smartpersonalfinance-30106365/"
+"description" = "Oliver Kandler publishes some photos on Pixabay."
 [["@graph".mainEntity]]
 "@type" = "Person"
 "@id" = "https://oliverkandler.github.io/"
@@ -161,39 +169,37 @@ name = "List of Oliver Kandler's Social Media Profiles"
     "https://www.google.com/search?kgmid=/g/11kbdg_htj",
     "https://oliverkandler.github.io/",
     "https://www.linkedin.com/in/oliver-kandler-spf/",
-    "https://www.quora.com/profile/Oliver-Kandler"
+    "https://pixabay.com/users/smartpersonalfinance-30106365/"
 ]
 [["@graph".partOf]]
 "@type" = "Website"
-"@id" = "https://www.facebook.com/"
-"url" = "https://www.facebook.com/"
-"name" = "Facebook"
+"@id" = "https://pixabay.com/#website"
+"url" = "https://pixabay.com/"
+"name" = "Pixabay"
 "sameAs" = [
-    "https://www.google.com/search?kgmid=/m/0bm8t1r",
-    "https://www.google.com/search?kgmid=/g/11bc5yvlyy",
-    "https://www.quora.com/",
-    "https://en.wikipedia.org/wiki/Quora"
+    "https://www.google.com/search?kgmid=/m/0rf9hgr",
+    "https://pixabay.com/",
+    "https://en.wikipedia.org/wiki/Pixabay"
 ] 
 
 # ####
-#    "https://twitter.com/SmartPerFinance",
-#    "https://www.facebook.com/oliver.kandler.spf"
-#    "https://www.quora.com/profile/Oliver-Kandler"
+#    "https://www.youtube.com/channel/UCohYBiI9kdmrIMskMlGrixA",
+#    "https://www.flickr.com/people/oliverkandler/", "https://www.flickr.com/people/196447828@N02/"
+#    "https://pixabay.com/users/smartpersonalfinance-30106365/"
 +++
 
-# Oliver Kandler's Social Media Profiles
+# Oliver Kandler's visual Profile Pages
 
 ![Oliver Kandler](./images/OliverKandler_travel_1200x1800.jpeg)
 
-## Oliver Kandler @ X (formerly Twitter)
+## YouTube
 
-Oliver Kandler tweets on Twitter (now X). He uses the handle [@SmartPerFinance](https://twitter.com/SmartPerFinance) He publishes short messages to engage with his audience or promotes his latest articles.
+Oliver Kandler publishes some videos on [YouTube](https://www.youtube.com/channel/UCohYBiI9kdmrIMskMlGrixA) and curates some Playlists.
 
+## Flickr
 
-## Oliver Kandler on Facebook
+On Flickr Oliver Kandler publishes some [random photography](https://www.flickr.com/people/oliverkandler/). His phtotos are mostly of nature thoughout the seasons.
 
-[Oliver Kandler]("https://www.facebook.com/oliver.kandler.spf") participates in various Facebook groups. In the groups he gathers ideas for articles and answers questions about personal finance. He promotes his latest articles on Facebook.
+## Pixabay
 
-## Oliver Kandler on Quora
-
-[Oliver Kandler]("https://www.quora.com/profile/Oliver-Kandler") shares his experience and expertise on the question-and-answer website Quora. He primarily answers questions about personal finance.
+Oliver Kandler publishes some [photos on Pixabay](https://pixabay.com/users/smartpersonalfinance-30106365/).
